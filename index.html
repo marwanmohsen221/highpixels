@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HighPixels - A premium marketing agency creating digital experiences that convert.">
+    <title>HighPixels | Premium Marketing Agency</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">HighPixels</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container container-nav">
+            <div class="logo">
+                High<span class="logo-pixel">Pixels</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-outline">Start Project</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge fade-in">High Pixels Agency</div>
+                <h1 class="hero-title fade-in delay-1">
+                    We Create Brands People <br>
+                    <span class="text-gradient">Remember</span>
+                </h1>
+                <p class="hero-subtitle fade-in delay-2">
+                    HighPixels combines creativity, strategy, and technology to build websites, content, and digital
+                    experiences that make businesses grow faster.
+                </p>
+                <div class="hero-btns fade-in delay-3">
+                    <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                    <a href="#services" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in delay-3">
+                <div class="hero-blob"></div>
+                <canvas id="robot-canvas"></canvas>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================
+         SERVICES SECTION
+    ============================= -->
+    <section id="services" class="services">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="section-header" style="text-align:center;">
+                <h2 class="section-title">Our <span class="text-gradient">Services</span></h2>
+                <p class="section-desc" style="margin:0 auto;">Explore what we can do for you</p>
+            </div>
+
+            <!-- ── Text Services Grid ── -->
+            <div class="services-text-grid">
+                <!-- Service 1: Web Development -->
+                <div class="service-text-card reveal">
+                    <div class="icon-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <p>Building robust, scalable, and visually stunning web applications with modern technologies
+                        tailored to your business needs.</p>
+                </div>
+                <!-- Service 2: Data Analysis & Dashboards -->
+                <div class="service-text-card reveal">
+                    <div class="icon-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Data Analysis &amp; Dashboards</h3>
+                    </div>
+                    <p>Turn your raw data into a strategic asset. We uncover hidden trends and provide clear
+                        visualizations using custom dashboards.</p>
+                </div>
+                <!-- Service 3: Graphic Design -->
+                <div class="service-text-card reveal">
+                    <div class="icon-header">
+                        <i class="fas fa-pen-nib"></i>
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <p>Creating iconic brand identities and visual assets that resonate with your target audience and
+                        capture attention.</p>
+                </div>
+                <!-- Service 4: Video Editing -->
+                <div class="service-text-card reveal">
+                    <div class="icon-header">
+                        <i class="fas fa-film"></i>
+                        <h3>Video Editing</h3>
+                    </div>
+                    <p>Producing high-impact video content optimized for all platforms, with cinematic quality and
+                        engaging storytelling.</p>
+                </div>
+            </div><!-- /services-text-grid -->
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header flex-header">
+                <div>
+                    <h2 class="section-title">Our <span class="text-gradient">Portfolio</span></h2>
+                    <p class="section-desc">A showcase of projects where strategy meets creativity.</p>
+                </div>
+                <a href="#" class="btn btn-outline">See All Projects</a>
+            </div>
+            <!-- ── Portfolio Modern Stack ── -->
+            <div class="services-modern-container pt-6">
+
+                <!-- Portfolio 1: Web Development -->
+                <div class="main-category-card reveal">
+                    <div class="main-category-content">
+                        <h2>Web Development</h2>
+                        <h3 class="gradient-subtitle">Projects</h3>
+                        <p>We build robust, scalable, and visually stunning web applications tailored to your business
+                            needs. From simple landing pages to complex e-commerce platforms, our code is clean,
+                            efficient, and future-proof.</p>
+                        <div class="main-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">10+</span>
+                                <span class="stat-text">PROJECTS COMPLETED</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">90%</span>
+                                <span class="stat-text">CLIENT SATISFACTION</span>
+                            </div>
+                        </div>
+                        <a href="https://marwanmohsen-gamma-self.vercel.app/" target="_blank"
+                            class="btn btn-outline rounded-btn">see
+                            websites <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <!-- IMAGE -->
+                    <div class="main-category-image glow-box">
+                        <a href="https://marwanmohsen-gamma-self.vercel.app/" target="_blank"
+                            style="display:block; width:100%; height:100%;">
+                            <img src="assets/svc-web.png" alt="Web Development Portfolio"
+                                style="object-fit: contain; width: 100%; height: 100%;" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio 2: Data Analysis & Dashboards -->
+                <div class="main-category-card reveal">
+                    <div class="main-category-image glow-box">
+                        <a href="https://my-portofolio-virid-ten.vercel.app/" target="_blank"
+                            style="display:block; width:100%; height:100%;">
+                            <img src="assets/svc-data.png" alt="Data Analysis Portfolio"
+                                style="object-fit: contain; width: 100%; height: 100%;" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="main-category-content">
+                        <h2>Data Analysis</h2>
+                        <h3 class="gradient-subtitle">&amp; Dashboards</h3>
+                        <p>Turn your raw data into a strategic asset. We uncover hidden trends, optimize performance,
+                            and provide clear visualizations that drive smarter business decisions using custom
+                            dashboards.</p>
+                        <div class="main-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">5+</span>
+                                <span class="stat-text">DATA PROCESSED</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">24/7</span>
+                                <span class="stat-text">REAL-TIME MONITORING</span>
+                            </div>
+                        </div>
+                        <a href="https://my-portofolio-virid-ten.vercel.app/" target="_blank"
+                            class="btn btn-outline rounded-btn">show Data <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio 3: Video Editing -->
+                <div class="main-category-card reveal">
+                    <div class="main-category-content">
+                        <h2>Video Editing</h2>
+                        <h3 class="gradient-subtitle">Production</h3>
+                        <p>Producing high-impact video content that tells your brand story across all platforms —
+                            optimized for TikTok, Reels, YouTube and more, with cinematic quality.</p>
+                        <div class="main-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">1M+</span>
+                                <span class="stat-text">TOTAL VIEWS</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">4K</span>
+                                <span class="stat-text">CINEMATIC QUALITY</span>
+                            </div>
+                        </div>
+                        <a href="https://yaseenmagdy.github.io/Yaseen-s-Portfolio/" target="_blank"
+                            class="btn btn-outline rounded-btn">Watch Videos <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="main-category-image glow-box">
+                        <a href="https://yaseenmagdy.github.io/Yaseen-s-Portfolio/" target="_blank"
+                            style="display:block; width:100%; height:100%;">
+                            <img src="assets/svc-video.png" alt="Video Editing Portfolio"
+                                style="object-fit: contain; width: 100%; height: 100%;" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio 4: Graphic Design -->
+                <div class="main-category-card reveal">
+                    <div class="main-category-image glow-box">
+                        <a href="https://www.behance.net/mohandhany25" target="_blank"
+                            style="display:block; width:100%; height:100%;">
+                            <img src="assets/svc-design.jpg" alt="Graphic Design Portfolio"
+                                style="object-fit: contain; width: 100%; height: 100%;" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="main-category-content">
+                        <h2>Graphic Design</h2>
+                        <h3 class="gradient-subtitle">Branding</h3>
+                        <p>Creating iconic brand identities and visual assets that resonate with your target audience.
+                            We design logos, social media graphics, and comprehensive brand guidelines.</p>
+                        <div class="main-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">50+</span>
+                                <span class="stat-text">BRANDS ELEVATED</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">95%</span>
+                                <span class="stat-text">CUSTOM DESIGNS</span>
+                            </div>
+                        </div>
+                        <a href="https://www.behance.net/mohandhany25" target="_blank"
+                            class="btn btn-outline rounded-btn">See Designs <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div><!-- /services-modern-container -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-image-side reveal">
+                <div class="about-stat-card">
+                    <span class="stat-number">40+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="about-img-bg"></div>
+            </div>
+            <div class="about-content reveal">
+                <div class="badge">Who We Are</div>
+                <h2 class="section-title">Mixing <span class="text-gradient">Creativity</span> with Technology</h2>
+                <p class="professional-desc">HighPixels creates impactful digital solutions that combine creativity,
+                    innovation, and performance to help brands grow with confidence in the modern digital world.</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-check-circle"></i> Creative Strategy</li>
+                    <li><i class="fas fa-check-circle"></i> Premium Design & Development</li>
+                    <li><i class="fas fa-check-circle"></i> Dedicated Client Experience</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container reveal">
+            <div class="testimonial-card">
+                <div class="testimonial-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="testimonial-text">"“HighPixels helped us turn our vision into a powerful digital experience.
+                    Their creative approach, technical expertise, and attention to detail made a huge impact on our
+                    growth.”"</p>
+                <div class="testimonial-author">
+                    <img src="assets/author-logo.png" alt="HighPixels Agency">
+                    <div>
+                        <strong>MA</strong>
+                        <span>CEO, HighPixels</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Let's <span class="text-gradient">Talk</span></h2>
+                    <p>Have a project in mind? We'd love to hear from you. Get in touch and let's create something
+                        extraordinary together.</p>
+                    <div class="contact-details">
+                        <a href="https://www.instagram.com/highpixelsagency?igsh=MTEweWg1djd6YjJ1YQ==" target="_blank"
+                            class="contact-item contact-item-link">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <span>Follow Us</span>
+                                <p>@highpixelsagency</p>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span>Call Us</span>
+                                <p>+20 1155934426</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container reveal">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Send Message
+                        </button>
+                        <p class="whatsapp-note">
+                            <i class="fab fa-whatsapp"></i> You will be redirected to WhatsApp
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        High<span class="logo-pixel">Pixels</span>
+                    </div>
+                    <p>Defining the standard for high-performance digital marketing and design.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/highpixelsagency?igsh=MTEweWg1djd6YjJ1YQ=="><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@highpixelsagency?_r=1&_t=ZS-95cpMBEsIfA"><i
+                                class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Our Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Newsletter</h4>
+                    <p>Get the latest digital trends in your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HighPixels Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/201155934426" target="_blank" class="whatsapp-float" id="whatsapp-float"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="robot.js" defer></script>
+</body>
+
+</html>
